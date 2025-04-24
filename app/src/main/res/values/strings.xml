@@ -4,5 +4,33 @@
     <string name="logo">Application logo</string>
     <string name="findHome">Find your favorite course</string>
     <string name="buttonHome">Get Started</string>
+
+    //SCREEN CURSO
+    <string name="inputCourse">Find your course</string>
+    <string name="Course">Courses</string>
     <string name="textDescriptionHome">Get to your destination faster, study at the best vocational school in Brazil. Be the best version of yourself.</string>
+    //Curso DS
+
+    <string name="SiglaDS">DS</string>
+    <string name="tituloDS">Desenvolvimento de Sistemas</string>
+    <string name="descDS">Learn to develop web and mobile applications.</string>
+    <string name="semestreCurso">3 semesters</string>
+
+    //CURSO RDS
+    <string name="SiglaRDS">RDS</string>
+    <string name="tituloRDS">Redes de Computadores</string>
+    <string name="descRDS">Learn to design communication networks.</string>
+
+    //CURSO ELETRO
+    <string name="SiglaELE">ELE</string>
+    <string name="tituloELE">Eletroeletrônica</string>
+    <string name="descELE">Learn to design communication networks.</string>
+
+    //SCREEN ESTUDANTES
+    <string name="todos">Todos</string>
+    <string name="cursando">Cursando</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="listStudent">Students List</string>
+
+
 </resources>

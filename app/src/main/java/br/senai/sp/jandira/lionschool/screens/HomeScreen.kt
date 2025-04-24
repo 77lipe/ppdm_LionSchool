@@ -42,7 +42,7 @@ import br.senai.sp.jandira.lionschool.R
 fun HomeScreen(modifier: Modifier){
 
     val context = LocalContext.current
-    val userfile = context
+    val userFile = context
         .getSharedPreferences("userFile", Context.MODE_PRIVATE)
 
     
@@ -207,9 +207,9 @@ fun HomeScreen(modifier: Modifier){
                         R.string.logo
                     ),
                     modifier = Modifier
-                        .height(70.dp)
-                        .width(70.dp)
-                        .padding(19.dp)
+                        .height(80.dp)
+                        .width(80.dp)
+                        .padding(22.dp)
 
                 )
                 Image(
@@ -220,9 +220,9 @@ fun HomeScreen(modifier: Modifier){
                         R.string.logo
                     ),
                     modifier = Modifier
-                        .height(70.dp)
-                        .width(70.dp)
-                        .padding(19.dp)
+                        .height(80.dp)
+                        .width(80.dp)
+                        .padding(22.dp)
 
                 )
                 Image(
@@ -233,9 +233,9 @@ fun HomeScreen(modifier: Modifier){
                         R.string.logo
                     ),
                     modifier = Modifier
-                        .height(70.dp)
-                        .width(70.dp)
-                        .padding(19.dp)
+                        .height(80.dp)
+                        .width(80.dp)
+                        .padding(22.dp)
 
                 )
                 Image(
@@ -246,9 +246,9 @@ fun HomeScreen(modifier: Modifier){
                         R.string.logo
                     ),
                     modifier = Modifier
-                        .height(70.dp)
-                        .width(70.dp)
-                        .padding(19.dp)
+                        .height(80.dp)
+                        .width(80.dp)
+                        .padding(22.dp)
 
                 )
 
