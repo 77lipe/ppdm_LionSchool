@@ -31,15 +31,16 @@ import br.senai.sp.jandira.lionschool.R
 
 @Composable
 fun StudentCard(
-    imageCourse: Painter = painterResource(R.drawable.foto1),
-    nameAluno: String = "Luana Oliveira Dias",
-    register: String = "20151001018",
-    date: String = "2022",
+    imageCourse: Painter,
+    nameAluno: String = "",
+    register: String = "",
+    date: String = "",
     isFilled: Boolean = false
 ) {
     Card(
         modifier = Modifier
-            .width(322.dp)
+            .padding(bottom = 9.dp)
+            .width(352.dp)
             .height(80.dp),
         shape = RoundedCornerShape(15.dp),
 
@@ -75,7 +76,10 @@ fun StudentCard(
                             .height(50.dp)
                             .width(50.dp)
                     )
-                    Column() {
+                    Column(
+                        modifier = Modifier
+                            .padding(start = 8.dp)
+                    ) {
                         Text(
                             text = nameAluno,
                             fontSize = 16.sp,
@@ -91,7 +95,7 @@ fun StudentCard(
                     }
                     Row (
                         modifier = Modifier
-                            .padding(start = 60.dp, top = 38.dp)
+                            .padding(start = 50.dp, top = 38.dp)
                     ){
                         Image(
                             painter = painterResource(id = R.drawable.calendario),
@@ -104,7 +108,7 @@ fun StudentCard(
                             text = date,
                             color = Color(0xffFFC23D),
                             fontWeight = FontWeight.Bold,
-                            fontSize = 10.sp,
+                            fontSize = 13.sp,
                             modifier = Modifier
                                 .padding(horizontal = 5.dp)
                         )
@@ -123,5 +127,5 @@ fun StudentCard(
 @Preview(showSystemUi =  true)
 @Composable
 private fun CoursesComponentsPreview() {
-    StudentCard()
+//    StudentCard()
 }

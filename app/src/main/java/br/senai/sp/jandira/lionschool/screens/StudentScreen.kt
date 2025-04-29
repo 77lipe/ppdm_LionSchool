@@ -40,6 +40,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.senai.sp.jandira.lionschool.R
 import br.senai.sp.jandira.lionschool.screens.components.CoursesCard
+import br.senai.sp.jandira.lionschool.screens.components.StudentCard
 
 @Composable
 fun StudentScreen(modifier: Modifier) {
@@ -329,7 +330,60 @@ fun StudentScreen(modifier: Modifier) {
                     fontWeight = FontWeight.Bold
                 )
             }
-//Courses - fim
+            Column(
+                modifier = Modifier
+//                    .background(Color.Blue)
+                    .padding(start = 12.dp, end = 12.dp, top = 10.dp)
+                    .fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally
+
+
+
+            ) {
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.foto1),
+                nameAluno = stringResource(R.string.aluno1),
+                register = stringResource(R.string.register1),
+                date = stringResource(R.string.data1),
+                isFilled = true
+                )
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.aluno2),
+                    nameAluno = stringResource(R.string.aluno2),
+                    register = stringResource(R.string.register1),
+                    date = stringResource(R.string.data2),
+                    isFilled = true
+                )
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.foto1),
+                    nameAluno = stringResource(R.string.aluno1),
+                    register = stringResource(R.string.register1),
+                    date = stringResource(R.string.data1),
+                    isFilled = true
+                )
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.aluno2),
+                    nameAluno = stringResource(R.string.aluno2),
+                    register = stringResource(R.string.register1),
+                    date = stringResource(R.string.data2),
+                    isFilled = true
+                )
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.foto1),
+                    nameAluno = stringResource(R.string.aluno1),
+                    register = stringResource(R.string.register1),
+                    date = stringResource(R.string.data1),
+                    isFilled = true
+                )
+                StudentCard(
+                    imageCourse = painterResource(R.drawable.aluno2),
+                    nameAluno = stringResource(R.string.aluno2),
+                    register = stringResource(R.string.register1),
+                    date = stringResource(R.string.data2),
+                    isFilled = true
+                )
+
+            }
 
         }
     }

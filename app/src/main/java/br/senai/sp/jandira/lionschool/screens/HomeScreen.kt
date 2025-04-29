@@ -36,6 +36,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import br.senai.sp.jandira.lionschool.R
 
 @Composable
@@ -48,7 +49,7 @@ fun HomeScreen(modifier: Modifier){
     
 
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
 
     ){
@@ -68,7 +69,7 @@ fun HomeScreen(modifier: Modifier){
 //                    .background(color = Color.Red)
             ) {
                 Column(
-                    modifier = modifier
+                    modifier = Modifier
                         .width(150.dp)
                         .fillMaxHeight()
 //                        .background(color = Color.Yellow)
@@ -87,7 +88,7 @@ fun HomeScreen(modifier: Modifier){
                     )
                 }
                 Column(
-                    modifier = modifier
+                    modifier = Modifier
                         .padding(10.dp)
                         .fillMaxWidth()
                         .fillMaxHeight(),
@@ -165,6 +166,7 @@ fun HomeScreen(modifier: Modifier){
             ){
                 Button(
                     onClick = {
+//                        navegacao.navigate(route = "cursos")
                     },
                     shape = RoundedCornerShape(12.dp),
                     colors = ButtonDefaults.buttonColors(

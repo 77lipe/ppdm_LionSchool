@@ -21,6 +21,10 @@
     <string name="tituloRDS">Redes de Computadores</string>
     <string name="descRDS">Learn to design communication networks.</string>
 
+    //SCREEN ESTUDANTE STATUS
+    <string name="cursoTec">001 - Técnico em Desenvolvimento de Sistemas</string>
+
+
     //CURSO ELETRO
     <string name="SiglaELE">ELE</string>
     <string name="tituloELE">Eletroeletrônica</string>
@@ -31,6 +35,15 @@
     <string name="cursando">Cursando</string>
     <string name="finalizado">Finalizado</string>
     <string name="listStudent">Students List</string>
+
+    <string name="aluno1">Luana Oliveira Dias</string>
+    <string name="register1">20151001018</string>
+    <string name="data1">2022</string>
+
+    <string name="aluno2">Carlos Augusto Nobre</string>
+    <string name="data2">2025</string>
+
+
 
 
 </resources>
