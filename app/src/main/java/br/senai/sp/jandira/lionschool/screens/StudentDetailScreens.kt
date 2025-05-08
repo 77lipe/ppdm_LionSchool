@@ -158,7 +158,7 @@ fun StudentDetailScreen(modifier: Modifier) {
                         R.string.cursoTec
                     ),
                     modifier = Modifier
-                        .padding(top = 1.dp, start = 43.dp, end = 43.dp),
+                        .padding(top = 10.dp, start = 43.dp, end = 10.dp),
                     color = Color(0xFF3347B0),
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Normal
